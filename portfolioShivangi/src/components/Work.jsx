@@ -60,17 +60,18 @@ import { motion } from 'framer-motion'
 // ✅ Define some dummy data (you can replace this with real data later)
 const workData = [
   {
-    role: 'Frontend Developer',
-    company: 'ABC Company',
-    duration: 'Jan 2023 - Dec 2023',
+    role: 'Frontend Developer (Self Projects)',
+    duration: 'Jan 2023,Current',
     description: 'Built and maintained responsive web applications using React.'
   },
-  {
-    role: 'Intern',
-    company: 'XYZ Startups',
-    duration: 'Jun 2022 - Dec 2022',
-    description: 'Worked on UI components and collaborated with backend team.'
-  }
+
+   {
+  role: 'Web Developer',
+  company: 'Self Projects',
+  duration: 'Jun 2024,current',
+  description: 'Explored both frontend and backend development by building small-scale applications. Implemented UI components and learned API handling and database basics.'
+}
+  
 ]
 
 const Work = () => {
